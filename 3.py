@@ -39,3 +39,15 @@ del guest[-1]
 
 for i in guest:
     print(f'\n\tI invite you, {i.title()}, to lunch!')
+
+# 3.8
+
+country = ['usa', 'russia', 'china', 'italia', 'spanish']
+print(country)
+print(sorted(country))
+print(country)
+country.sort()
+print(country)
+country.reverse()
+print(country)
+print(len(country))
